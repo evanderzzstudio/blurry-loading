@@ -13,7 +13,7 @@ function blurring() {
     }
 
     loadText.innerText = `${load}%`
-    loadText.style.opacity = 
+    loadText.style.opacity = scale(load, )
 }
 
 const scale = (num, in_min, in_max, out_min, out_max) => {
