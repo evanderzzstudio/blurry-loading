@@ -1,4 +1,5 @@
-/* <a href="https://www.freepik.com/free-photo/light-forest-day-anime-background-illustration-generative-ai_38094960.htm#query=anime&position=47&from_view=search&track=sph">Image by benzoix</a>on Freepik */
+/* image link
+<a href="https://www.freepik.com/free-photo/light-forest-day-anime-background-illustration-generative-ai_38094960.htm#query=anime&position=47&from_view=search&track=sph">Image by benzoix</a>on Freepik */
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 * {
@@ -13,4 +14,20 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+}
+
+.bg {
+    background: url('https: //www.freepik.com/free-photo/light-forest-day-anime-background-illustration-generative-ai_38094960.htm#query=anime&position=47&from_view=search&track=sph') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
 }
