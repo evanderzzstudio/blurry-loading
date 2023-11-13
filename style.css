@@ -1,1 +1,16 @@
 /* <a href="https://www.freepik.com/free-photo/light-forest-day-anime-background-illustration-generative-ai_38094960.htm#query=anime&position=47&from_view=search&track=sph">Image by benzoix</a>on Freepik */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
